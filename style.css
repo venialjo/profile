@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(16,16,30);
+  color: silver;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "sunset-overdrive";
+  src: url("fonts/overdrive-sunset.otf");
+}
+
+.splash {
+  background-image: url("images/explosion.jpg");
+  background-size: cover;
+  font-family: sunset-overdrive;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 150px;
+  color: rgba(0,0,0,0.3);
+  -webkit-text-stroke: 1px white;
+  text-shadow: 4px 4px rgba(0,0,0,0.4)
+}
+
+#profile-picture {
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.4)
+}
+
+h2 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 50px;
+}
+
+p {
+  font-family: 'Kanit', sans-serif;
+  font-size: 30px;
+}
+
+.link {
+  font-family: 'Kanit', sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 20px 50px 20px;
+  border-radius: 10px;
+  background-color: silver;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: white;
+}
+
+.cards {
+  background-color: rgb(20,20,45);
+  width: 1000px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 2px 2px silver;
+}
+
+/*.job {
+  padding-bottom: 80px;
+}*/
+
+.icon {
+  font-size: 50px;
+  color: silver;
+  text-decoration: none;
+}
+
+.icon:hover {
+  color: white;
+}
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 25px;
+}
+
+@media (max-width: 960px) {
+  .cards {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  .cards {
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  .cards {
+    width: 300px;
+  }
+}
